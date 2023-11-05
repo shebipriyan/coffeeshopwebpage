@@ -1,0 +1,23 @@
+/* src/MenuBar.css */
+.menu-bar {
+    background-color: #740909;
+    color: rgb(226, 159, 159);
+    padding: 10px;
+  }
+  
+  .menu-bar ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-bar li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .menu-bar a {
+    text-decoration: none;
+    color: rgb(240, 227, 227);
+  }
+  

@@ -1,38 +1,74 @@
+/* src/App.css */
 .App {
+  font-family: Arial, sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  background-color: #300303;
+  color: rgb(224, 205, 205);
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  font-size: 2em;
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.hero {
+  background-image: url('./photos/cup.jpg');
+  background-clip: border-box;
+  background-size:cover;
+  color: rgb(153, 66, 66);
+  text-align: center;
+  padding: 100px;
+}
+
+.hero-content {
+  background: rgba(245, 235, 235, 0.822);
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.hero-content h2 {
+  font-size:larger;
+  margin: 0;
+}
+.coffee-menu {
+  display:grid;
+  grid-template-columns: auto;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 20px;
+  padding: 20px;
+  background-color: #720a0aa8;
 }
 
-.App-link {
-  color: #61dafb;
+.coffeeimage {
+  border: 1px solid #5f0c0c;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.coffeeimage img {
+  max-width: 1000%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.about {
+  padding: 40px;
+  background-color: #e28b8b2c;
+}
+
+
+.menu {
+  padding: 100px;
+  background-image:none;
+}
+
+.about {
+  padding: 40px;
+  background-color: #9b8e8e;
 }
